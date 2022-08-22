@@ -15,7 +15,7 @@ const getDataUrl = ({
 
   // 设置宽高
   canvas.setAttribute("height", 100);
-  canvas.setAttribute("width", 100);
+  canvas.setAttribute("width", 150);
 
   ctx.rotate((rotate * Math.PI) / 100);
   ctx.font = font;
