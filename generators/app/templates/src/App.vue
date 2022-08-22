@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-watermark={}>
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -28,5 +28,16 @@ nav {
       color: #42b983;
     }
   }
+}
+.water-mark {
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-repeat: repeat;
 }
 </style>
