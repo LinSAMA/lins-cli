@@ -70,6 +70,7 @@ module.exports = class extends Generator {
       'src/store/index.js',
       'src/views/AboutView.vue',
       'src/views/HomeView.vue',
+      'src/directives/watermark.js',
       'src/App.vue',
       'src/main.js',
       '.browserslistrc',
