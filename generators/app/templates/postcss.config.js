@@ -1,12 +1,5 @@
-/*
- * @Author: wangjielin 876999511@qq.com
- * @Date: 2022-08-16 17:13:33
- * @LastEditors: wangjielin 876999511@qq.com
- * @LastEditTime: 2022-08-16 17:14:34
- * @FilePath: \vue-template\postcss.config.js
- */
 module.exports = {
-  plugin: {
+  plugins: {
     "postcss-px-to-viewport": {
       // options
       unitToConvert: "px", // 要转化的单位
